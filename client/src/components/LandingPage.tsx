@@ -751,7 +751,7 @@ export default function LandingPage() {
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScgJenTnkZgdW3zdGon7L6EtjfKYh-xyRrx4UDVfdgL9i-Y-Q/viewform?embedded=true"
                 width={"100%"}
-                height={540}
+                height={700}
                 frameBorder={0}
                 marginHeight={0}
                 marginWidth={0}
@@ -845,7 +845,6 @@ export default function LandingPage() {
             {/* Legal */}
             <div>
               <h3 className="text-white font-semibold mb-4">Legal</h3>
-.
               <ul className="space-y-2">
                 {/*
                 <li>
