@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useReducer } from "react"
 
 import type {
   ToastActionElement,
@@ -13,6 +14,7 @@ type ToasterToast = ToastProps & {
   title?: React.ReactNode
   description?: React.ReactNode
   action?: ToastActionElement
+  onOpenChange?: (open: boolean) => void
 }
 
 const actionTypes = {
@@ -188,4 +190,4 @@ function useToast() {
   }
 }
 
-export { useToast, toast }
+export { useToast, toast };
