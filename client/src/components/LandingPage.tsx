@@ -77,7 +77,7 @@ export default function LandingPage() {
   const [gtmLoaded, setGtmLoaded] = useState(false);
 
   // GTM container ID
-  const GTM_ID = "G-SG60Z2LCZQ";
+  const GTM_ID = "GTM-MSW6M7CD";
 
   // Inject GTM after consent
   useEffect(() => {
